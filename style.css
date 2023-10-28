@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 80%;
+    height: 80%;
+    background-color: bisque;
+}
+.title{
+    text-align: center;
+    padding: 3% 4%;
+    font-size: 30px;
+}
+.arrayText{
+    margin: 5%;
+    text-align: start;
+    font-weight: 600;
+}
+#array{
+    font-weight: 600;
+    color:red;
+    margin-left: 2%;
+}
+button{
+    padding: 2%;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 16px;
+    background-color: aqua;
+}
+button:hover{
+    transform: scale(1.2);
+}
+#sortedArray{
+    margin-top: 5%;
+    text-align: start;
+    font-weight: 600;
+
+}
+
+
